@@ -21,6 +21,9 @@ nav {
     font-family: "Ariel", "Helvetica", sans-serif;
 }
 
+nav a {
+    margin .2em 1em 0 1em;
+}
 .navigation {
 background-color: red;
 }
