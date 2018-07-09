@@ -1,0 +1,38 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em;
+    font-family: "Ariel", "Helvetica", sans-serif;
+}
+
+.navigation {
+background-color: red;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color:grey;
+}
+
+footer {
+    text-align: center;
+    background-color: goldenrod;
+}
