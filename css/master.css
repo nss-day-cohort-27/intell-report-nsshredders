@@ -71,6 +71,10 @@ h4 {
 }
 
 .financialInterests img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
   width: 100px;
   height: 100px;
   opacity: 0.5;
@@ -80,14 +84,15 @@ h4 {
   -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
   transition: width 1s, height 1s, transform 1s;
 
+
 }
 
 .financialInterests img:hover {
   opacity: 1;
-  width: 200px;
-  height: 200px;
-  -webkit-transform: rotate(720deg); /* Safari */
-  transform: rotate(720deg);
+  width: 120px;
+  height: 120px;
+  -webkit-transform: rotate(25deg); /* Safari */
+  transform: rotate(25deg);
 }
 
 #bankAccounts {
