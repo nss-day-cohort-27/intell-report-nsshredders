@@ -22,7 +22,7 @@ nav {
 }
 
 nav a {
-    margin .2em 1em 0 1em;
+    margin: .2em 1em 0 1em;
 }
 .navigation {
 background-color: red;
