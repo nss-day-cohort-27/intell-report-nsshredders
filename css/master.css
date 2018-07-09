@@ -1,5 +1,26 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: gray;
+}
 
+ul {
+  list-style:  none;
+}
+
+.financialInterests #blackmail {
+  display: flex;
+  justify-content: center
+  padding: 10px;
+
+}
+
+.financialInterests img {
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+}
+
+.financialInterests img:hover {
+  opacity: 1;
 }
