@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(148, 143, 143);
+    background-image: url("disneylandcastle.jpg");
 }
 
 nav {
@@ -24,16 +25,19 @@ nav {
 nav a {
     margin: .2em 1em 0 1em;
 }
+
 .navigation {
-background-color: red;
-justify-centent: center;
+    background-color: rgb(228, 70, 70);
+    text-align: center;
 }
 
 .flex-container {
     display: flex;
     display: -webkit-flex;
     width: 100%;
-    background-color:grey;
+    background-color:rgb(129, 126, 126, .5);
+    justify-content: space-around;
+    line-height: 200%;
 }
 
 footer {
