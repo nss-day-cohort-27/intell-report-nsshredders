@@ -7,8 +7,9 @@ html {
 }
 
 body {
-    background-color: rgb(148, 143, 143);
-    background-image: url("disneylandcastle.jpg");
+    background-color: rgb(148, 143, 143,);
+    background-image: url("../images/disneylandcastle.jpg");
+    opacity: .9;
 }
 
 nav {
