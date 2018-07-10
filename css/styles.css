@@ -1,0 +1,47 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(148, 143, 143);
+    background-image: url("../images/disneylandcastle.jpg");
+    opacity: .9;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .2em;
+    font-family: "Ariel", "Helvetica", sans-serif;
+}
+
+nav a {
+    margin: .2em 1em 0 1em;
+}
+
+.navigation {
+    background-color: rgb(228, 70, 70);
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color:rgb(129, 126, 126, .5);
+    justify-content: space-around;
+    line-height: 200%;
+}
+
+footer {
+    text-align: center;
+    background-color: goldenrod;
+}

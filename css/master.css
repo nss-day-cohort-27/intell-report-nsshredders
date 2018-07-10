@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #ffff66;
+  background-image: url("../img/mickeyBackground.jpg");
+  background-position: center;
+  background-color: white;
 }
 
 @font-face {
@@ -14,16 +16,22 @@ body {
 
 ul {
   list-style:  none;
+  padding: 0px;
+  margin: 5px;
 }
 
 h2 {
   font-weight: normal;
   font-family: 'hickory_jackregular';
-  font-size: 5em;
+  font-size: 7em;
+  text-shadow: 2px 1px #fff;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 h3 {
   font-weight: normal;
+  text-decoration: underline;
   /* change font */
 }
 
@@ -33,31 +41,71 @@ h4 {
   font-size: 2em;
 }
 
+.containerForMyContainer {
+  width: 50%;
+  margin: 30px auto;
+  /* background-color: #31A6FF; */
+  background: rgba(49, 166, 255, 0.4);
+  border: 5px solid black;
+}
+
 .flexContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.financialInterests {
+  width: 80%;
+}
+
 .financialInterests .blackmail {
+  border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: white;
   border: 2px solid black;
-  width: 70%;
+  width: 80%;
 }
 
 .financialInterests img {
-  width: 170px;
-  height: 170px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
+  width: 100px;
+  height: 100px;
   opacity: 0.5;
   margin-bottom: -2.85em;
   margin-top: 2em;
+  /* margin-right: 2px; */
+  -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+  transition: width 1s, height 1s, transform 1s;
+
 
 }
 
 .financialInterests img:hover {
   opacity: 1;
+  width: 120px;
+  height: 120px;
+  -webkit-transform: rotate(25deg); /* Safari */
+  transform: rotate(25deg);
+}
+
+#bankAccounts {
+  list-style: square;
+  font-family: monospace;
+}
+
+#businesses {
+  font-family: monospace;
+  list-style: square;
+}
+
+#moneyLaundering {
+  list-style: square;
+  font-family: monospace;
 }
