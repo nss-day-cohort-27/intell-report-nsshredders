@@ -14,10 +14,44 @@ body {
     font-style: normal;
 }
 
+.navContainer  {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+nav {
+  font-family: 'hickory_jackregular';
+  font-weight: normal;
+}
+
+nav a {
+  text-shadow: 1px 1px blue;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+nav a:hover {
+  /* text-decoration: overline underline; */
+  /* text-decoration-color: black; */
+  text-decoration-style: wavy;
+  color: #FAF526;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 2.5em;
+}
+
 ul {
-  list-style:  none;
-  padding: 0px;
-  margin: 5px;
+  list-style: none;
 }
 
 h2 {
@@ -25,7 +59,7 @@ h2 {
   font-family: 'hickory_jackregular';
   font-size: 7em;
   text-shadow: 2px 1px #fff;
-  margin-bottom: 0px;
+  margin-bottom: -.18em;
   margin-top: 10px;
 }
 
@@ -73,7 +107,7 @@ h4 {
 .financialInterests img {
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
+  padding:style="display: inline" 5px;
 
   width: 100px;
   height: 100px;
