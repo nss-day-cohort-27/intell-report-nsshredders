@@ -12,6 +12,10 @@ body {
     opacity: .9;
 }
 
+h1, h2 {
+    text-shadow: 2px 2px white;
+}
+
 nav {
     background-color: white;
     display: flex;
@@ -39,6 +43,27 @@ nav a {
     background-color:rgb(129, 126, 126, .5);
     justify-content: space-around;
     line-height: 200%;
+}
+
+.img-culprit {
+    border-style: solid;
+    color: black;
+}
+
+ul {
+    background: lightblue;
+    padding: 20px;
+    list-style-type: square;
+}
+
+ul li {
+    background: white;
+    margin: 5px;
+    font-size: large;
+}
+
+p {
+    font-size: large;
 }
 
 footer {
