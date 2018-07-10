@@ -34,8 +34,8 @@ nav a:hover {
 
 }
 
-h1, h2, h3 {
-    color: black;
+h1, h2, h3, p {
+    color: red;
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1 {
     display: flex;
     display: -webkit-flex;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: black;
 }
 
 main{
