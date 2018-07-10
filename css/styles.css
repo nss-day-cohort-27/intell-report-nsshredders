@@ -26,6 +26,7 @@ nav a {
 }
 .navigation {
 background-color: red;
+justify-centent: center;
 }
 
 .flex-container {
