@@ -4,8 +4,9 @@ body{
     font-weight: bolder;
     background-image: url("images/MickeyWithCar.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
-    font-size: 28px;
+    background-size: 100%;
+    font-size: 33px;
+    background-attachment: fixed;
     
     }
 nav a{
