@@ -27,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white
+    color: red(247, 129, 129)
 }
 .wrapper {
     background-color: #ffffff;
