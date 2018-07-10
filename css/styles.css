@@ -70,3 +70,9 @@ footer {
     text-align: center;
     background-color: goldenrod;
 }
+
+footer p {
+    margin-top: 0;
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
