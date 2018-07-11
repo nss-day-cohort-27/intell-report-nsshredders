@@ -104,8 +104,35 @@ h4 {
   width: 80%;
 }
 
+.pictures {
+
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.pictures img {
+  opacity: 0.7;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  padding: 5px;
+  /* border: 1px solid #ddd; */
+  margin-bottom: -2.85em;
+  /* margin-top: 2em; */
+  -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.financialInterests img:hover {
+  opacity: 1;
+  -webkit-transform: rotate(900deg); /* Safari */
+  transform: rotate(900deg);
+}
+
 .financialInterests img {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd;
   border-radius: 4px;
   padding:style="display: inline" 5px;
 
@@ -115,18 +142,18 @@ h4 {
   margin-bottom: -2.85em;
   margin-top: 2em;
   /* margin-right: 2px; */
-  -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
-  transition: width 1s, height 1s, transform 1s;
+  /* -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+  /* transition: width 1s, height 1s, transform 1s; */
 
 
 }
 
 .financialInterests img:hover {
-  opacity: 1;
+  /* opacity: 1;
   width: 120px;
   height: 120px;
   -webkit-transform: rotate(25deg); /* Safari */
-  transform: rotate(25deg);
+  /* transform: rotate(25deg); */
 }
 
 #bankAccounts {
